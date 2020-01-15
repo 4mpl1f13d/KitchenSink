@@ -34,13 +34,13 @@ var tester1 = [
 
 for (var i=0; i<5; i++){
    checkAge(tester1[i].name, tester1[i].age);
-    //  console.log(tester1[i]);
+    //console.log(tester1[i]);
 };
 
  var anyWord='Hello World';
 function getLength(anyWord){
     var n = anyWord.length;    
-    console.log(anyWord.length);
+    // console.log(anyWord.length);
       if (n%2 == 0){
             console.log('The world is nice and even!');
         }else{
